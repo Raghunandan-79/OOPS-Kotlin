@@ -23,7 +23,7 @@ fun main() {
     jetpack.stop(2)
 }
 
-private class Animal {
+class Animal {
     var name = ""
     var topSpeed: Int = 0
 
@@ -32,7 +32,7 @@ private class Animal {
     }
 }
 
-private class Math {
+class Math {
     fun add(num1: Int, num2: Int): Int {
         return (num1 + num2)
     }
@@ -50,7 +50,7 @@ private class Math {
     }
 }
 
-private class Jetpack {
+class Jetpack {
     var userHeight: Int = 0
 
     fun burn(numberOfSeconds: Int) {
